@@ -93,3 +93,5 @@ superior de este documento.
 
 Si tienes cualquier duda sobre esta política de privacidad o sobre Freetally, puedes
 escribir a: **freetally.app@gmail.com**
+
+También puedes consultar esta política en: https://lisan1313.github.io/freetally-privacy/

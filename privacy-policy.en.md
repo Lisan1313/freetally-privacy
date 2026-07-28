@@ -88,3 +88,5 @@ will be indicated by updating the "Last updated" date at the top of this documen
 
 If you have any questions about this privacy policy or about Freetally, you can write to:
 **freetally.app@gmail.com**
+
+You can also read this policy at: https://lisan1313.github.io/freetally-privacy/
