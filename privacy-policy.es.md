@@ -1,6 +1,6 @@
 # Política de Privacidad de Freetally
 
-**Última actualización: 28 de julio de 2026**
+**Última actualización: 15 de septiembre de 2026**
 
 ## 1. Introducción
 
@@ -25,11 +25,17 @@ porque no salen de él.
 
 Para que quede explícito, Freetally:
 
-- **No realiza llamadas de red.** La app funciona sin conexión a internet para su
-  funcionalidad principal.
+- **No envía tus datos por internet.** Toda la app funciona sin conexión. La única
+  excepción es consultar a Google Play si compraste el desbloqueo premium (ver punto 7), y
+  en esa consulta no viaja ningún dato de tus proyectos.
 - **No incluye analítica ni seguimiento** de tu actividad dentro de la app.
 - **No muestra publicidad** ni comparte datos con redes publicitarias.
 - **No comparte ni envía tus datos a terceros**, ni tampoco a la desarrolladora de la app.
+- **No usa la copia de seguridad automática de Android.** Android puede subir por su cuenta
+  los datos de las apps a tu Google Drive; en Freetally esa función está **desactivada a
+  propósito**, para que tus proyectos no salgan del dispositivo ni siquiera por esa vía. La
+  contrapartida es que, al cambiar de móvil, tus datos no se restauran solos: para llevártelos
+  usa la copia de seguridad manual de Ajustes.
 
 ## 4. Notificaciones locales
 
@@ -50,8 +56,9 @@ el acceso a la app con tu huella dactilar o con un PIN.
 
 ## 6. Backup y exportación de datos
 
-Freetally incluye una función opcional de copia de seguridad y exportación de datos (en
-formato JSON o CSV), disponible como parte de la **versión de pago (premium)**.
+Freetally incluye una función opcional de copia de seguridad (en formato JSON), **gratuita
+para todos los usuarios**, y una exportación de tus ingresos en formato CSV, disponible como
+parte de la **versión de pago (premium)**.
 
 Esta función está siempre bajo tu control: eres tú quien decide generar el archivo y, a
 través del propio sistema para compartir de Android, eliges dónde guardarlo o a quién
@@ -60,11 +67,16 @@ archivo a ningún sitio por su cuenta.
 
 ## 7. Compras dentro de la app / Google Play Billing
 
-El desbloqueo de la versión premium se realizará mediante una compra única gestionada a
-través de **Google Play Billing**, cuando esta función esté disponible. **Actualmente, la
-compra dentro de la app todavía no está activa.** Cuando lo esté, será Google quien procese el
-pago de forma segura; Freetally solo recibirá la confirmación de que la compra se realizó
-correctamente. La app **no maneja ni almacenará datos de tarjetas ni de pago**.
+El desbloqueo de la versión premium se realiza mediante una compra única gestionada a través
+de **Google Play Billing**. Es Google quien procesa el pago de forma segura; Freetally solo
+recibe la confirmación de que la compra se realizó correctamente. La app **no maneja ni
+almacena datos de tarjetas ni de pago**.
+
+La app consulta a Google Play si esta cuenta ya compró el desbloqueo únicamente en tres
+momentos: al abrir la app, al abrir la pantalla de compra (en ambos casos, para restaurar
+automáticamente el desbloqueo si cambias de móvil o reinstalas) y al pulsar "Restaurar compra".
+En esa consulta no viaja ningún dato de tus proyectos. Fuera de esos tres casos, el uso normal
+de la app —crear proyectos, ver totales, recordatorios— no realiza ninguna conexión.
 
 ## 8. Menores de edad
 

@@ -1,6 +1,6 @@
 # Freetally Privacy Policy
 
-**Last updated: July 28, 2026**
+**Last updated: September 15, 2026**
 
 ## 1. Introduction
 
@@ -24,10 +24,17 @@ never leaves your device.
 
 To be explicit, Freetally:
 
-- **Does not make any network calls.** The app works offline for its core functionality.
+- **Does not send your data over the internet.** The whole app works offline. The only
+  exception is asking Google Play whether you bought the premium unlock (see section 7), and
+  no data about your projects travels in that check.
 - **Does not include analytics or tracking** of your activity within the app.
 - **Does not show advertising** or share data with ad networks.
 - **Does not share or send your data to third parties**, nor to the app's developer.
+- **Does not use Android's automatic backup.** Android can upload app data to your Google
+  Drive on its own; in Freetally that feature is **deliberately switched off**, so your
+  projects never leave the device by that route either. The trade-off is that your data is not
+  restored automatically when you change phones: use the manual backup in Settings to take it
+  with you.
 
 ## 4. Local notifications
 
@@ -48,8 +55,8 @@ to the app with your fingerprint or a PIN.
 
 ## 6. Backup and data export
 
-Freetally includes an optional backup and data export feature (in JSON or CSV format),
-available as part of the **paid (premium) version**.
+Freetally includes an optional backup feature (in JSON format), **free for all users**, and an
+export of your income in CSV format, available as part of the **paid (premium) version**.
 
 This feature is always under your control: you decide when to generate the file, and through
 Android's own share system, you choose where to save it or who to send it to (for example,
@@ -58,11 +65,16 @@ anywhere on its own.
 
 ## 7. In-app purchases / Google Play Billing
 
-Unlocking the premium version will be done through a one-time purchase managed via **Google
-Play Billing**, once this feature is available. **In-app purchases are not active yet.** When
-they are, Google will securely process the payment; Freetally will only receive confirmation
-that the purchase was completed successfully. The app **does not handle or store any card or
+Unlocking the premium version is done through a one-time purchase managed via **Google Play
+Billing**. Google securely processes the payment; Freetally only receives confirmation that
+the purchase was completed successfully. The app **does not handle or store any card or
 payment data**.
+
+The app asks Google Play whether this account already bought the unlock in only three moments:
+when you open the app, when you open the purchase screen (in both cases so your unlock is
+restored automatically if you switch phones or reinstall), and when you tap "Restore purchase".
+No data about your projects travels in that check. Outside those three cases, normal use of the
+app — creating projects, viewing totals, reminders — makes no connection at all.
 
 ## 8. Children
 
